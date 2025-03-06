@@ -3,12 +3,10 @@ from transformers import BertForSequenceClassification, BertTokenizer
 import random
 
 # Load the pre-trained BERT model and tokenizer
-
-print("Loading model and tokenizer...")
-model = BertForSequenceClassification.from_pretrained('models/bert_model')
-tokenizer = BertTokenizer.from_pretrained('models/bert_model')
-
-print("Model loaded successfully!")
+model_path = 'bert_model'  
+tokenizer_path = 'bert_model'  
+model = BertForSequenceClassification.from_pretrained('/content/drive/MyDrive/chatbot')
+tokenizer = BertTokenizer.from_pretrained('/content/drive/MyDrive/chatbot')
 
 # Define the intents and corresponding responses
 intents_responses = {
@@ -19,7 +17,7 @@ intents_responses = {
     ],
     "Check Payment Options": [
         "Please pay using this link.",
-        "You can complete your payment here."
+        "you can do payment in this link"
     ],
     "Farewell": [
         "Thank you for using our service. Have a great day!",
@@ -34,8 +32,8 @@ intents_responses = {
         "I'm not trained to answer that. Can I assist you with something else?"
     ],
     "Make Reservation": [
-        "When would you like to make the reservation?",
-        "Sure! Let me know the date and time for the reservation."
+         "When would you like to make the reservation?",
+         "Sure! Let me know the date and time for the reservation."
     ],
     "Modify Reservation": [
         "Please provide the details of the reservation you want to modify.",
@@ -47,56 +45,63 @@ intents_responses = {
     ]
 }
 
-label_mapping = {
-    0: "Check Menu",
-    1: "Check Payment Options",
-    2: "Farewell",
-    3: "Greeting",
-    4: "Irrelevant",
-    5: "Make Reservation",
-    6: "Modify Reservation",
-    7: "Place Order"
-}
-
 prev_intent = None  # Track the previous intent
 
+def generate_response(intent):
+    if intent in intents_responses:
+        return random.choice(intents_responses[intent])
+    else:
+        return random.choice(intents_responses["Irrelevant"])
+
 def classify_intent(user_query):
-    """Classifies user intent using the trained BERT model."""
     inputs = tokenizer(user_query, return_tensors="pt", padding=True, truncation=True)
-    
+    input_ids = inputs['input_ids']
+    attention_mask = inputs['attention_mask']
+
     with torch.no_grad():
-        outputs = model(**inputs)
+        outputs = model(input_ids=input_ids, attention_mask=attention_mask)
 
     predicted_label_idx = torch.argmax(outputs.logits).item()
-    return label_mapping.get(predicted_label_idx, "Irrelevant")
 
-def generate_response(intent):
-    """Generates a chatbot response based on classified intent."""
-    return random.choice(intents_responses.get(intent, intents_responses["Irrelevant"]))
+    label_mapping = {
+        0: 'Check Menu',
+        1: 'Check Payment Options',
+        2: 'Farewell',
+        3: 'Greeting',
+        4: 'Irrelevant',
+        5: 'Make Reservation',
+        6: 'Modify Reservation',
+        7: 'Place Order'
+    }
+    predicted_label = label_mapping[predicted_label_idx]
+
+    return predicted_label
 
 def chatbot():
-    """Runs the chatbot in a loop until the user says farewell."""
     global prev_intent
 
     print("Chatbot: Hello! Welcome to our restaurant reservation system.")
-    
+    user_query = input("User: ")  # Get user input
+
     while True:
-        user_query = input("User: ")  # Get user input
         intent = classify_intent(user_query)
 
         if intent == "Farewell":
-            print("Chatbot:", generate_response("Farewell"))
+            print("Chatbot:", random.choice(intents_responses["Farewell"]))
             break
-        
-        # Handle consecutive intents
-        if prev_intent == intent and intent in ["Make Reservation", "Check Menu"]:
-            print("Chatbot: What will be your mode of payment?")
-            user_query = input("User: ")
-            prev_intent = classify_intent(user_query)
-            continue
+        elif prev_intent == intent:
+            # Handle consecutive intents
+            if intent == "Make Reservation" or intent == "Check Menu":
+                print("Chatbot: What will be your mode of payment?")
+                user_query = input("User: ")  # Get user input
+                prev_intent = classify_intent(user_query)  # Update prev_intent
+                continue
 
-        print("Chatbot:", generate_response(intent))
-        prev_intent = intent  # Update previous intent
+        response = generate_response(intent)
+        print("Chatbot:", response)
+        prev_intent = intent  # Update prev_intent
+        user_query = input("User: ")  # Get user input
 
-if __name__ == "__main__":
-    chatbot()
+# Example usage
+chatbot()
+
