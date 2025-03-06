@@ -3,11 +3,11 @@ from transformers import BertForSequenceClassification, BertTokenizer
 import random
 
 # Load the pre-trained BERT model and tokenizer
-MODEL_PATH = "/content/drive/MyDrive/chatbot"
 
 print("Loading model and tokenizer...")
-model = BertForSequenceClassification.from_pretrained(MODEL_PATH)
-tokenizer = BertTokenizer.from_pretrained(MODEL_PATH)
+model = BertForSequenceClassification.from_pretrained('models/bert_model')
+tokenizer = BertTokenizer.from_pretrained('models/bert_model')
+
 print("Model loaded successfully!")
 
 # Define the intents and corresponding responses
