@@ -1,0 +1,211 @@
+text,label
+I'd like to reserve a table for four people on Friday at 7 PM. Can you help with that?,Make Reservation
+Could you assist me in making a reservation for two tonight?,Make Reservation
+We're planning a special occasion and would love to reserve a private room for a party of ten on Saturday evening.,Make Reservation
+Is it possible to book an outdoor table for two on Sunday? We prefer a quiet corner.,Make Reservation
+I want to make a reservation for a birthday dinner next week. Do you have availability?,Make Reservation
+Could you arrange a table by the window for a romantic dinner? We're celebrating our anniversary.,Make Reservation
+Can I reserve a table for a business meeting for four on Monday afternoon?,Make Reservation
+We need to book a table for a family dinner on Thursday night. Can you confirm?,Make Reservation
+I'd like to make a reservation for tomorrow evening. What options do you have available?,Make Reservation
+Can you help me reserve a table for lunch today? I have guests coming over.,Make Reservation
+Can I pre-order a meal for pickup at 6 PM tomorrow? It's my son's birthday.,Make Reservation
+I want to schedule a food delivery for Friday evening. Is that possible?,Make Reservation
+Can I place an online order for dinner tonight? We're too tired to cook.,Make Reservation
+I'd like to order food for delivery tonight. How long will it take?,Make Reservation
+We want to reserve a table for eight on Saturday at 7 PM. Can we do that online?,Make Reservation
+Can I make a reservation for two for tomorrow evening? We prefer a window seat.,Make Reservation
+We're a group of six and would like to reserve a table for Friday night. Can you confirm?,Make Reservation
+Is it possible to reserve a table for a party of twelve for next Saturday? It's for a special celebration.,Make Reservation
+I want to book a table for two at 6:30 PM tonight. Can you make the reservation?,Make Reservation
+Can you assist me in reserving a table for lunch tomorrow? We have a business meeting.,Make Reservation
+Can I change my booking from 6 PM to 7 PM tomorrow? We have a meeting running late.,Modify Reservation
+I need to update my reservation for Friday to a table for six instead of four. We're inviting more guests.,Modify Reservation
+Modify my reservation for Saturday to include an outdoor table. The weather forecast is nice.,Modify Reservation
+Could you please change our reservation from a table to a private room? We prefer more privacy.,Modify Reservation
+We'd like to change the reservation date from Friday to Saturday. Our plans have changed.,Modify Reservation
+Is it possible to move our reservation to an earlier time? We finished our work early.,Modify Reservation
+We need to modify our booking to add two more guests. Our friends decided to join us.,Modify Reservation
+Can you change the reservation name from John Smith to Jane Doe? We made a mistake.,Modify Reservation
+I'd like to change the reservation time to 8 PM instead of 7 PM. We have other commitments.,Modify Reservation
+Can I modify the reservation for tomorrow to include a highchair for a baby? We're bringing our child.,Modify Reservation
+Is it possible to modify my online order to add a dessert? We forgot to include it earlier.,Modify Reservation
+I want to update my delivery address for tomorrow's order. We recently moved.,Modify Reservation
+Can I change my pickup time for tonight's order to 7:30 PM? We got delayed at work.,Modify Reservation
+Can I change my reservation for tomorrow to a later time? We got held up.,Modify Reservation
+We need to modify our reservation to a table for eight. More friends decided to join us.,Modify Reservation
+Can you change our reservation to a different date? Our plans have changed.,Modify Reservation
+We want to modify our reservation to include a special seating arrangement. Can you accommodate?,Modify Reservation
+I'd like to modify my reservation for tomorrow. Can we add a note for a special request?,Modify Reservation
+Can we change our reservation to an earlier time? We need to attend another event afterward.,Modify Reservation
+Is it possible to modify our reservation to a different location? We want to dine at another branch.,Modify Reservation
+We need to change the reservation name from Smith to Doe. Can you update it?,Modify Reservation
+Can you modify our reservation to include a special request for a cake? It's for a birthday celebration.,Modify Reservation
+Do you have any vegan options available for dinner? We have dietary restrictions.,Check Menu
+What's on the menu for today? We're looking for something new to try.,Check Menu
+Can I see the dessert menu? We're craving something sweet.,Check Menu
+Do you offer any gluten-free dishes? We have gluten intolerance.,Check Menu
+What are your signature dishes? We want to try your specialties.,Check Menu
+Are there any seafood options available? We're seafood lovers.,Check Menu
+Can you recommend some vegetarian dishes? We have vegetarian guests.,Check Menu
+Are there any daily specials? We want to try something unique.,Check Menu
+What types of drinks do you serve? We're interested in your beverage selection.,Check Menu
+Do you have a children's menu? We're dining with kids.,Check Menu
+Can I customize my order to exclude certain ingredients? I have allergies.,Check Menu
+What's included in the set menu for tonight? We're interested in the set offerings.,Check Menu
+Are there any promotions or discounts available? We're looking for deals.,Check Menu
+Do you offer any organic options? We prefer organic food.,Check Menu
+What are your popular dishes? We want to try what others love.,Check Menu
+Can you tell us about your chef's specials? We're curious about the chef's creations.,Check Menu
+Are there any low-calorie options available? We're watching our calorie intake.,Check Menu
+Do you have any recommendations for a romantic dinner? It's our anniversary.,Check Menu
+Can you suggest some appetizers to start with? We're undecided.,Check Menu
+I'd like to place an order for pickup. Can I do that over the phone?,Place Order
+Can I order delivery online? I prefer to order from your website.,Place Order
+We want to place a takeout order for dinner tonight. Can you help us with that?,Place Order
+Is it possible to place an order for delivery through your mobile app?,Place Order
+I'd like to order food for pickup. How long will it take to prepare?,Place Order
+Can I place an order for delivery over the phone? I prefer speaking to someone.,Place Order
+We're interested in ordering food for a group event. Can we place a bulk order?,Place Order
+Is there a minimum order requirement for delivery? We're ordering for a small group.,Place Order
+I'd like to place a catering order for an upcoming event. Can you assist with that?,Place Order
+Can I place an order for pickup now? We're on our way to your restaurant.,Place Order
+We're planning a party and would like to place a large order for delivery. Is that possible?,Place Order
+Can I place a pre-order for pickup tomorrow? We have a busy schedule.,Place Order
+We want to place an order for delivery tonight. Can you provide an estimated delivery time?,Place Order
+Is it possible to place an order for delivery to a different address? We're at a friend's house.,Place Order
+Can I place an order for pickup during lunchtime? We're in the area.,Place Order
+We're hosting a meeting and would like to place a lunch order for delivery. Can you assist?,Place Order
+Can I place an order for dinner delivery? We're too tired to cook.,Place Order
+We want to place an order for pickup later today. Can you accommodate?,Place Order
+I'd like to place an order for delivery tomorrow evening. Is that possible?,Place Order
+What forms of payment do you accept? We want to know the payment options available.,Check Payment Options
+Can I pay with a credit card? We prefer using credit cards for transactions.,Check Payment Options
+Do you accept mobile payments like Apple Pay or Google Pay? We prefer digital payments.,Check Payment Options
+Can I pay with a combination of cash and card? We want to split the payment.,Check Payment Options
+Do you accept contactless payments? We're trying to minimize physical contact.,Check Payment Options
+Can I pay using a gift card? We received a gift card and would like to use it.,Check Payment Options
+Do you offer payment plans for large bills? We're planning a group dinner.,Check Payment Options
+Can I pay using a foreign currency? We're tourists visiting from abroad.,Check Payment Options
+Do you accept online payment methods for takeout orders? We prefer paying online.,Check Payment Options
+Can I pay with a debit card? We prefer using debit cards for transactions.,Check Payment Options
+Do you accept digital wallets like PayPal? We prefer using digital payment methods.,Check Payment Options
+Can I pay using a restaurant-specific loyalty card? We're members of your loyalty program.,Check Payment Options
+Do you offer installment payments for large bills? We're planning a celebration.,Check Payment Options
+Can I pay with a corporate account? We're hosting a business dinner.,Check Payment Options
+Do you accept prepaid cards? We received prepaid cards as gifts.,Check Payment Options
+Can I pay with a personal check? We prefer using checks for transactions.,Check Payment Options
+Do you accept payments through mobile banking apps? We prefer using mobile apps for payments.,Check Payment Options
+Can I pay using a restaurant gift certificate? We received a gift certificate and would like to use it.,Check Payment Options
+Do you offer cashback options for certain payment methods? We're interested in cashback deals.,Check Payment Options
+Can I pay with cryptocurrencies like Bitcoin? We're interested in using digital currencies.,Check Payment Options
+"Hi, we'd like to make a reservation for tonight.",Greeting
+"Hello, do you accept walk-in customers?",Greeting
+"Good evening, can I see your menu, please?",Greeting
+"Hey there, do you have any specials for today?",Greeting
+"Good afternoon, are you open for lunch?",Greeting
+"Hi, do you offer outdoor seating?",Greeting
+"Hello, what are your hours for today?",Greeting
+"Good morning, do you serve breakfast?",Greeting
+"Hi, can I place an order for delivery?",Greeting
+"Hello, do you have a kids' menu?",Greeting
+"Hi, is it possible to modify my reservation?",Greeting
+"Hello, do you offer catering services?",Greeting
+"Hi, what's the dress code for dining here?",Greeting
+"Hello, do you have any vegetarian options?",Greeting
+"Hi, is there a minimum order for delivery?",Greeting
+"Hello, do you accept credit card payments?",Greeting
+"Hi, are you currently offering any promotions?",Greeting
+"Hello, what's your policy on reservations?",Greeting
+"Hi, can I request a table by the window?",Greeting
+"Hello, do you have any gluten-free options?",Greeting
+Thank you for your assistance. Goodbye!,Farewell
+Thanks for the information. Have a great day!,Farewell
+Appreciate your help. Bye for now!,Farewell
+Thanks again. Take care!,Farewell
+Thank you. See you later!,Farewell
+Thanks for your time. Goodbye!,Farewell
+Much appreciated. Farewell!,Farewell
+Thanks a lot. Have a good one!,Farewell
+Thank you for your help. Bye!,Farewell
+Thanks so much. See you soon!,Farewell
+Thanks for everything. Goodbye!,Farewell
+Thank you once again. Take care!,Farewell
+Appreciate it. Bye for now!,Farewell
+Thanks for the assistance. Farewell!,Farewell
+Thank you. Have a wonderful day!,Farewell
+Thanks for your time. See you later!,Farewell
+Much obliged. Farewell!,Farewell
+Thanks a bunch. Bye!,Farewell
+Thank you kindly. Goodbye!,Farewell
+Thanks for your help. Farewell!,Farewell
+What's the weather like today?,Irrelevant
+Can you recommend a good book to read?,Irrelevant
+How do I change my email password?,Irrelevant
+What time does the next bus arrive?,Irrelevant
+Do you know any good restaurants nearby?,Irrelevant
+Can you help me with my math homework?,Irrelevant
+What's the latest news headlines?,Irrelevant
+How do I fix a leaking faucet?,Irrelevant
+What's the capital of France?,Irrelevant
+Who won the World Series last year?,Irrelevant
+What's the best way to learn a new language?,Irrelevant
+Can you tell me the recipe for chocolate cake?,Irrelevant
+What's the meaning of life?,Irrelevant
+Do you believe in aliens?,Irrelevant
+Can you teach me how to play guitar?,Irrelevant
+What's the population of Tokyo?,Irrelevant
+How do I get to the nearest train station?,Irrelevant
+Can you recommend a good movie to watch?,Irrelevant
+What's the tallest mountain in the world?,Irrelevant
+Who is the current president of the United States?,Irrelevant
+What's the current cricket score?,Irrelevant
+How do I renew my passport?,Irrelevant
+Can you recommend a good saree shop in Mumbai?,Irrelevant
+What's the price of gold today?,Irrelevant
+Do you know any good places to visit in Goa?,Irrelevant
+How do I file my income tax returns?,Irrelevant
+Can you help me find a job in Bangalore?,Irrelevant
+What's the best way to cook biryani?,Irrelevant
+How do I apply for a PAN card?,Irrelevant
+What's the distance between Delhi and Agra?,Irrelevant
+Do you have any tips for growing tomatoes in pots?,Irrelevant
+Can you suggest a good recipe for paneer tikka?,Irrelevant
+How do I register for a vaccination slot?,Irrelevant
+What's the exchange rate for USD to INR?,Irrelevant
+Do you know any good yoga classes in my area?,Irrelevant
+How do I book a train ticket online?,Irrelevant
+Can you recommend a good historical book about India?,Irrelevant
+What's the procedure for getting a driving license?,Irrelevant
+How do I start a small business in India?,Irrelevant
+What's the best time to visit the Taj Mahal?,Irrelevant
+Do you have any recommendations for authentic Indian restaurants in Delhi?,Irrelevant
+How do I track my courier package?,Irrelevant
+Can you suggest a good Bollywood movie to watch?,Irrelevant
+What's the procedure for registering a marriage in India?,Irrelevant
+Do you know any good tailors for stitching clothes?,Irrelevant
+How do I check my bank account balance?,Irrelevant
+What's the process for applying for a student visa to study abroad?,Irrelevant
+Can you recommend a good place to learn classical dance in Kolkata?,Irrelevant
+What's the procedure for booking a gas cylinder refill?,Irrelevant
+Do you know any good places for street food in Hyderabad?,Irrelevant
+How do I apply for a Aadhaar card?,Irrelevant
+What's the best time to visit Kerala?,Irrelevant
+Can you suggest some good places for shopping in Jaipur?,Irrelevant
+What's the process for applying for a loan?,Irrelevant
+Do you have any recommendations for online grocery delivery services?,Irrelevant
+How do I book a flight ticket online?,Irrelevant
+What's the procedure for obtaining a birth certificate?,Irrelevant
+Can you suggest a good book on Indian history?,Irrelevant
+What's the procedure for applying for a ration card?,Irrelevant
+How do I recharge my mobile phone?,Irrelevant
+Do you know any good places for trekking in the Himalayas?,Irrelevant
+What's the best time to visit Ladakh?,Irrelevant
+Can you recommend a good place for street photography in Mumbai?,Irrelevant
+How do I check my electricity bill online?,Irrelevant
+What's the process for applying for a passport?,Irrelevant
+Do you have any tips for preparing for the UPSC exam?,Irrelevant
+Can you suggest a good restaurant for a romantic dinner in Bangalore?,Irrelevant
+What's the procedure for registering a trademark?,Irrelevant
+How do I apply for a new gas connection?,Irrelevant
+What's the best way to learn Hindi?,Irrelevant
